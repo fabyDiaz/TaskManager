@@ -17,16 +17,20 @@ código
 
 ### GREEN
 tests
+
 ![GREEN](img/refactor.png)
 
 Código inicial
+
 ![GREEN](img/greencodigo.png)
 
 ### REFACTOR
 tests
+
 ![GREEN](img/refactor.png)
 
 código refactorizado
+
 ![GREEN](img/codigogreen.png)
 
 
