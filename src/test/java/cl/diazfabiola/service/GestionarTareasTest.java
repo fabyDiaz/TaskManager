@@ -20,14 +20,12 @@ class GestionarTareasTest {
 
     @Test
     void agregarUnaTarea() {
-        //Tarea tarea = gestionarTareas.agregarTarea("Tarea 1", "Descripción de la tarea 1");
         assertThat(tarea.getId()).isEqualTo(1);
         assertThat(gestionarTareas.getAll()).hasSize(1);
     }
 
     @Test
     void actualizarUnaTarea() {
-        //Tarea tarea = gestionarTareas.agregarTarea("Tarea 1", "Descripción de la tarea 1");
         boolean actualizado = gestionarTareas.actualizarEstado(tarea.getId(), "COMPLETADA");
         assertThat(actualizado).isTrue();
         assertThat(tarea.getStatus()).isEqualTo("COMPLETADA");
@@ -35,7 +33,6 @@ class GestionarTareasTest {
 
     @Test
     void eliminarUnaTarea() {
-       // Tarea tarea = gestionarTareas.agregarTarea("Tarea 1", "Descripción de la tarea 1");
         boolean eliminado = gestionarTareas.eliminarTarea(tarea.getId());
         assertThat(eliminado).isTrue();
         assertThat(gestionarTareas.getAll()).isEmpty();
