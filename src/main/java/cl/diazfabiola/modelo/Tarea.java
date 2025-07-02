@@ -1,5 +1,5 @@
 package cl.diazfabiola.modelo;
-
+/*
 public class Tarea {
 
     private final int id;
@@ -34,3 +34,5 @@ public class Tarea {
         this.status = status;
     }
 }
+
+ */

@@ -5,7 +5,7 @@ import cl.diazfabiola.modelo.Tarea;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+/*
 public class GestionarTareas {
 
     List<Tarea> tareas = new ArrayList<>();
@@ -36,3 +36,6 @@ public class GestionarTareas {
         return tareas;
     }
 }
+
+
+ */

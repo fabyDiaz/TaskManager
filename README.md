@@ -7,4 +7,26 @@
 - Fabiola Díaz
 - Eduardo Arellano
 - Carlos Vasquez
+## metodología de Test-Driven Development (TDD)
+### RED
+tests
+![RED](img/red.png)
+
+código
+
+
+### GREEN
+tests
+![GREEN](img/refactor.png)
+
+Código inicial
+![GREEN](img/greencodigo.png)
+
+### REFACTOR
+tests
+![GREEN](img/refactor.png)
+
+código refactorizado
+![GREEN](img/codigogreen.png)
+
 
