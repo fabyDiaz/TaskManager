@@ -18,13 +18,19 @@ public class GestionarTareas {
     }
 
     public boolean actualizarEstado(int id, String newStatus) {
-        Optional<Tarea> task = tareas.stream()
+        for (Tarea tarea : tareas) {
+            if (tarea.getId() == id) {
+                tarea.setStatus(newStatus);
+                return true;
+            }
+        }
+        /* Optional<Tarea> task = tareas.stream()
                 .filter(t -> t.getId() == id)
                 .findFirst();
         if (task.isPresent()) {
             task.get().setStatus(newStatus);
             return true;
-        }
+        } */
         return false;
     }
 
