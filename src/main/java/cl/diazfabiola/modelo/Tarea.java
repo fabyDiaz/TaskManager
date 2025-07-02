@@ -1,6 +1,6 @@
 package cl.diazfabiola.modelo;
 
-public class Tarea {
+/* public class Tarea {
 
     private final int id;
     private final String titulo;
@@ -33,4 +33,4 @@ public class Tarea {
     public void setStatus(String status) {
         this.status = status;
     }
-}
+} */

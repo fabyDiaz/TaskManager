@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class GestionarTareas {
+/* public class GestionarTareas {
 
     List<Tarea> tareas = new ArrayList<>();
     private int nextId = 1;
@@ -35,4 +35,4 @@ public class GestionarTareas {
     public List<Tarea> getAll() {
         return tareas;
     }
-}
+} */
