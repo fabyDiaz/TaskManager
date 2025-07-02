@@ -12,8 +12,6 @@
 tests
 ![RED](img/red.png)
 
-código
-
 
 ### GREEN
 tests
