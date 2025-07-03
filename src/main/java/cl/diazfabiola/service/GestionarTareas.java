@@ -17,12 +17,12 @@ public class GestionarTareas {
         return tarea;
     }
 
-    public boolean actualizarEstado(int id, String newStatus) {
-        Optional<Tarea> task = tareas.stream()
+    public boolean actualizarEstado(int id, String nuevoStatus) {
+        Optional<Tarea> tarea = tareas.stream()
                 .filter(t -> t.getId() == id)
                 .findFirst();
-        if (task.isPresent()) {
-            task.get().setStatus(newStatus);
+        if (tarea.isPresent()) {
+            tarea.get().setStatus(nuevoStatus);
             return true;
         }
         return false;
