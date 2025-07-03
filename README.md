@@ -20,15 +20,15 @@ tests
 
 Código inicial
 
-![GREEN](img/greencodigo.png)
+![GREEN](img/greenCode.png)
 
 ### REFACTOR
 tests
 
-![GREEN](img/refactor.png)
+![REFACTOR](img/refactor.png)
 
 código refactorizado
 
-![GREEN](img/codigogreen.png)
+![REFACTOR](img/refactorCode.png)
 
 
